@@ -54,4 +54,36 @@
 - [x] add schema & model
 - [x] set up db connection error handling
 
-5.
+5. Registration
+
+- [x] install bcrypt `npm i bcrypt`
+- [x] fix navigation links
+- [x] add register view
+- [x] add user controller
+- [x] add register page
+- [x] modify register form
+- [x] add user service with register
+- [x] hash password
+- [x] check rePass
+- [x] check if user exist
+- [x] add error handling
+- [x] register user
+
+6. Login
+
+- [x] jsonwebtoken `npm i jsonwebtoken`
+- [x] cookie parser `npm i cookie-parser`
+- [x] add login view
+- [x] add login page
+- [x] add login post action
+- [x] add login method to user service
+- [x] validate user
+- [x] validate password
+- [x] generate token
+- [x] attach token to cookie
+- [x] login User
+- [x] auto login on register
+
+7. Logout
+
+- [ ] add logout action
