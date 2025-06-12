@@ -38,5 +38,20 @@
 - [x] set up static
 - [x] add layout
 - [x] add partial dir
-- [ ] config handlebars to read mongoose documents
+- [x] config handlebars to read mongoose documents `handlebars.engine({
+  extname: "hbs",
+  runtimeOptions: {
+    allowProtoMethodsByDefault: true,
+    allowProtoPropertiesByDefault: true,
+  },
+})`
 
+4. Database
+
+- [x] install mongoose `npm i mongoose`
+- [x] set up url mongoose
+- [x] try to connect use dbname
+- [x] add schema & model
+- [x] set up db connection error handling
+
+5.

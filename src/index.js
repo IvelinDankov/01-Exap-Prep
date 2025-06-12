@@ -2,10 +2,13 @@ import express from "express";
 import cookieParser from "cookie-parser";
 import routes from "./routes.js";
 import handlebars from "express-handlebars";
+import initDatabase from "./config/dbConfig.js";
 
 const port = 5000;
 
 const app = express();
+
+initDatabase();
 
 app.engine(
   "hbs",
