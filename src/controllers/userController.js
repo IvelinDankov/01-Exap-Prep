@@ -35,6 +35,7 @@ userController.post("/login", isGuest, async (req, res) => {
     res.cookie("auth", token);
 
     res.redirect("/");
+    // res.tempRedirect("/", { error: "Successful logged in!" });
   } catch (err) {
     const error = getErrorMessage(err);
     res.render("user/login", { error, user: loginData });
