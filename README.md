@@ -104,7 +104,12 @@
 - [x] Create isGuest middleware
 - [x] Add route gouads
 
-10. Error Handling.
+10. Dynamic content
+
+- [x] Dynamic navigation
+- [] Dynamic title
+
+11. Error Handling.
 
 - [x] Add notification
 - [x] Error msg in notification
@@ -112,6 +117,10 @@
 - [x] Error handling for login
 - [x] Persist form data in register form
 
-11. Bonuses
+12. Bonuses
 
-- [ ]
+- [x] Set page title from view
+- [ ] Export helpers to external fils
+- [ ] Temp data
+  - [ ] Install express session
+  - [ ]
