@@ -18,10 +18,25 @@
     }
   ]
 }`
+
+2. Express
+
 - [x] Install express `npm i express`
 - [x] Init express server
 - [x] Add public resources
-- [ ] Setup static folder
-- [ ] Add body parser middleware
-- [ ] Set up routes file
-- [ ] Add home controller
+- [x] Setup static folder
+- [x] Add body parser middleware `urlencoded`
+- [x] Set up routes file
+- [x] Add home controller
+
+3. Handlebars
+
+- [x] install handlebars `npm i express-handlebars`
+- [x] set up view engine
+- [x] change view directory
+- [x] config file extentions
+- [x] set up static
+- [x] add layout
+- [x] add partial dir
+- [ ] config handlebars to read mongoose documents
+
