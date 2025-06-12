@@ -86,4 +86,20 @@
 
 7. Logout
 
-- [ ] add logout action
+- [x] add logout action
+
+8. Authentication
+
+- [x] Auth middleware
+- [x] get token
+- [x] check if guest
+- [x] verify token
+- [x] Attach user to request
+- [x] Attach user data to hbs
+- [x] use authMiddleware
+
+9. Authorization.
+
+- [ ] Create isAuth middleware
+- [ ] Create isGuest middleware
+- [ ] Add route gouads
