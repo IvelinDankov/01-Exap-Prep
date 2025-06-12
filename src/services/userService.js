@@ -30,7 +30,7 @@ export default {
 
     const isValid = await bcrypt.compare(password, user.password);
 
-    if (isValid) {
+    if (!isValid) {
       throw new Error("User or pass is incorrect!!!");
     }
 

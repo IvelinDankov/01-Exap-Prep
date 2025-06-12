@@ -100,6 +100,18 @@
 
 9. Authorization.
 
-- [ ] Create isAuth middleware
-- [ ] Create isGuest middleware
-- [ ] Add route gouads
+- [x] Create isAuth middleware
+- [x] Create isGuest middleware
+- [x] Add route gouads
+
+10. Error Handling.
+
+- [x] Add notification
+- [x] Error msg in notification
+- [x] Error handling for register
+- [x] Error handling for login
+- [x] Persist form data in register form
+
+11. Bonuses
+
+- [ ]

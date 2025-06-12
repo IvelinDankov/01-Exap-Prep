@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 import { AUTH_COOKIE_NAME, secret } from "../config/index.js";
 
 export const auth = (req, res, next) => {
-  const token = req.cookies[AUTH_COOKIE_NAME];
+  const token = req.cookies["auth"];
 
   if (!token) {
     return next();
@@ -18,7 +18,7 @@ export const auth = (req, res, next) => {
     res.locals.isAuthenticated = true;
     return next();
   } catch (err) {
-    res.clearCookie(AUTH_COOKIE_NAME);
+    res.clearCookie("auth");
 
     res.redirect("/users/register");
   }
